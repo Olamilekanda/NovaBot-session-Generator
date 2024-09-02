@@ -1,22 +1,21 @@
 {
-    "name": "Wasi Session Generator",
-    "description": "I'm Web Session Generator by Itxx Me Wasi",
-    "logo": "",
-    "repository": "https://github.com/Giftedmaurice/giftedmdV2-session-generator",
-    "keywords": ["@Xcelsama"],
-    "success_url": "/", 
-    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
-    "env": {      
-      "PORT": {
-        "description": "Port for web app.4000,5000,3000... any!",
-        "value": "5000",
-        "required": false 
-      },
-      "MESSAGE": {
-        "description": "",
-        "value": "",
-        "required": false 
-      }
-    }   
-
+  "name": "Wasi Session Generator",
+  "description": "I'm a Web Session Generator by Itxx Me Wasi",
+  "logo": "",
+  "repository": "https://github.com/Giftedmaurice/giftedmdV2-session-generator",
+  "keywords": ["@Xcelsama", "Web", "Session Generator", "Node.js"],
+  "success_url": "/", 
+  "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }],
+  "env": {      
+    "PORT": {
+      "description": "Port for web app.4000,5000,3000... any!",
+      "value": "5000",
+      "required": false 
+    },
+    "MESSAGE": {
+      "description": "Custom message to display on the web app",
+      "value": "Welcome to Wasi Session Generator!",
+      "required": false 
+    }
+  }
 }
